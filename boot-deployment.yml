@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boot-container
-          image: tjddms/argocd-file:latest
+          image: tjddms/argocd-pipe:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
